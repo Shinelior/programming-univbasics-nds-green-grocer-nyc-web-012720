@@ -83,7 +83,7 @@ def apply_coupons(cart, coupons)
      cart << cart_item_with_coupon 
       cart_item[:count] -= coupons[row_index][:num]
      end
-     binding.pry
+     
      
      
    end
